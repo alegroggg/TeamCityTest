@@ -15,5 +15,13 @@ namespace UnitTestProject1
 
             Assert.AreEqual(cat.ReturnAge(), 20);
         }
+
+        [TestMethod]
+        public void CatTestMethod2()
+        {
+            Cat cat = new Cat();
+
+            Assert.AreEqual(cat.Age, 0);
+        }
     }
 }
