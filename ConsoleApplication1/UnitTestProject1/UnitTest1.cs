@@ -23,5 +23,11 @@ namespace UnitTestProject1
 
             Assert.AreEqual(cat.Age, 0);
         }
+
+        [TestMethod]
+        public void CatTestMethod3()
+        {
+            Assert.AreEqual(0, 0);
+        }
     }
 }
