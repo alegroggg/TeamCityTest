@@ -16,7 +16,8 @@ namespace ConsoleApplication1
             Console.WriteLine("dupa2");
             Console.ReadLine();
 
-
+            Console.WriteLine("dupa3");
+            Console.ReadLine();
         }
     }
 }
